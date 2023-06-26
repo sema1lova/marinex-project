@@ -564,18 +564,20 @@
 .sifre .sifre__form .form__button {
   margin-top: 10px;
 }
-.sifre .sifre__form .form__button a button {
+.sifre .sifre__form .form__button a {
+  display: inline-block;
+  text-align: center;
+  padding: 12px 0;
   width: 100%;
   background: #FFAB21;
   color: #ffffff;
   border: 1px solid #FFAB21;
-  height: 40px;
   border-radius: 10px;
   margin-bottom: 20px;
   transition: 0.7s;
   font-weight: 600;
 }
-.sifre .sifre__form .form__button a button:hover {
+.sifre .sifre__form .form__button a:hover {
   color: #FFAB21;
   border: 1px solid #FFAB21;
   background-color: #ffffff;
@@ -641,6 +643,150 @@
 .sifreAktiv .sifreAktiv__form .sifreAktiv__content .sifreAktiv__a {
   color: #FFAB21;
   font-weight: 600;
+}
+
+.sifreBerpasi {
+  margin: 80px 0;
+}
+.sifreBerpasi .sifreBerpasi__image img {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 450px;
+}
+.sifreBerpasi .sifreBerpasi__title {
+  color: #254083;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.sifreBerpasi .sifreBerpasi__form {
+  position: relative;
+  height: 470px;
+  width: 480px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 80px 50px;
+  box-shadow: 0px 1px 10px rgba(192, 215, 255, 0.6);
+}
+.sifreBerpasi .sifreBerpasi__form img {
+  position: absolute;
+  top: -50px;
+  right: 25%;
+}
+.sifreBerpasi .sifreBerpasi__form .inputt {
+  width: 100%;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border: 0.5px solid #005B7F;
+  border-radius: 10px;
+  height: 40px;
+  padding: 10px 0 10px 20px;
+  color: #404040;
+}
+.sifreBerpasi .sifreBerpasi__form .form__button {
+  margin-top: 10px;
+}
+.sifreBerpasi .sifreBerpasi__form .form__button a {
+  display: inline-block;
+  text-align: center;
+  padding: 12px 0;
+  width: 100%;
+  background: #FFAB21;
+  color: #ffffff;
+  border: 1px solid #FFAB21;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: 0.7s;
+  font-weight: 600;
+}
+.sifreBerpasi .sifreBerpasi__form .form__button a:hover {
+  color: #FFAB21;
+  border: 1px solid #FFAB21;
+  background-color: #ffffff;
+}
+
+.sifreKod {
+  margin: 80px 0;
+}
+.sifreKod .sifreKod__image img {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 450px;
+}
+.sifreKod .sifreKod__title {
+  color: #254083;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+}
+.sifreKod .sifreKod__desc {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sifreKod .sifreKod__form {
+  position: relative;
+  height: 470px;
+  width: 480px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 80px 50px;
+  box-shadow: 0px 1px 10px rgba(192, 215, 255, 0.6);
+}
+.sifreKod .sifreKod__form .inputs {
+  display: flex;
+  justify-content: space-between;
+}
+.sifreKod .sifreKod__form img {
+  position: absolute;
+  top: -50px;
+  right: 25%;
+}
+.sifreKod .sifreKod__form .inputt {
+  width: 100%;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border: 0.5px solid #CCCCCC;
+  border-radius: 10px;
+  height: 40px;
+  padding: 10px 0 10px 27px;
+  color: #404040;
+  outline: none;
+}
+.sifreKod .sifreKod__form input:invalid {
+  border: 0.5px solid #CCCCCC;
+}
+.sifreKod .sifreKod__form input:focus {
+  border: 0.5px solid #FFAB21;
+}
+.sifreKod .sifreKod__form input:valid {
+  border: 0.5px solid #254083;
+}
+.sifreKod .sifreKod__form .form__button {
+  margin-top: 10px;
+}
+.sifreKod .sifreKod__form .form__button a {
+  display: inline-block;
+  text-align: center;
+  padding: 12px 0;
+  width: 100%;
+  background: #FFAB21;
+  color: #ffffff;
+  border: 1px solid #FFAB21;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: 0.7s;
+  font-weight: 600;
+}
+.sifreKod .sifreKod__form .form__button a:hover {
+  color: #FFAB21;
+  border: 1px solid #FFAB21;
+  background-color: #ffffff;
 }
 
 * {
@@ -1139,5 +1285,58 @@ a {
   }
   .sifre .sifre__form img {
     display: none;
+  }
+  .sifreAktiv {
+    margin: 50px 0;
+  }
+  .sifreAktiv .sifreAktiv__image img {
+    display: none;
+  }
+  .sifreAktiv .sifreAktiv__title {
+    font-size: 30px !important;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .sifreAktiv .sifreAktiv__form {
+    position: relative;
+    height: auto;
+    width: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 80px 20px;
+    box-shadow: 0px 1px 10px rgba(192, 215, 255, 0.6);
+  }
+  .sifreAktiv .sifreAktiv__form .sifreAktiv__img1 {
+    display: none;
+  }
+  .sifreAktiv .sifreAktiv__form .sifreAktiv__content {
+    text-align: center;
+  }
+  .sifreAktiv .sifreAktiv__form .sifreAktiv__content .sifreAktiv__image2 {
+    margin-top: 30px;
+  }
+  .sifreAktiv .sifreAktiv__form .sifreAktiv__content .sifreAktiv__image2 img {
+    position: relative;
+    width: 20%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: auto;
+  }
+  .sifreAktiv .sifreAktiv__form .sifreAktiv__content .sifreAktiv__title {
+    color: #254083;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .sifreAktiv .sifreAktiv__form .sifreAktiv__content .sifreAktiv__desc {
+    color: #404040;
+  }
+  .sifreAktiv .sifreAktiv__form .sifreAktiv__content .sifreAktiv__a {
+    color: #FFAB21;
+    font-weight: 600;
   }
 }/*# sourceMappingURL=style.css.map */

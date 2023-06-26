@@ -1,6 +1,6 @@
-.sifre{
+.sifreBerpasi{
     margin: 80px 0;
-    .sifre__image{
+    .sifreBerpasi__image{
         img{
             width: 100%;
             height: 100%;
@@ -8,7 +8,7 @@
             max-height: 450px;
         }
     }
-    .sifre__title{
+    .sifreBerpasi__title{
         color: $darkBlue;
         font-size: 35px;
         font-weight: 600;
@@ -16,7 +16,7 @@
         margin-top: 30px;
         margin-bottom: 50px;
     }
-    .sifre__form{
+    .sifreBerpasi__form{
         position: relative;
         img{
             position: absolute;

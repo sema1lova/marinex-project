@@ -12,6 +12,8 @@
 @import "./qeydiyyat.scss";
 @import "./sifre.scss";
 @import "./sifreAktiv.scss";
+@import "./sifreBerpasi.scss";
+@import "./sifreKod.scss";
 @import "./smartCustoms.scss";
 
 * {
@@ -647,6 +649,67 @@ a {
     }   
     //SIFRE
 
+
+
+    // SIFRE AKTIV
+    .sifreAktiv{
+        margin: 50px 0;
+        .sifreAktiv__image{
+            img{    
+               display: none;
+            }
+        }
+        .sifreAktiv__title{
+            font-size: 30px !important;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        .sifreAktiv__form{
+            position: relative;
+            .sifreAktiv__img1{
+             display: none;
+            }
+            height: auto;
+            width: auto;
+            background: $white;
+            border-radius: 10px;
+            padding: 80px 20px;
+            box-shadow: 0px 1px 10px rgba(192, 215, 255, 0.6);
+    
+            .sifreAktiv__content{
+                text-align: center;
+                .sifreAktiv__image2{
+                    margin-top: 30px;
+                    img{
+                        position: relative;
+                        width: 20%;
+                        top: 0;
+                        right: 0;
+                        left: 0;
+                        bottom: 0;
+                        height: auto;
+                    }
+                }
+                .sifreAktiv__title{
+                    
+                    color: $darkBlue;
+                    font-size: 35px;
+                    font-weight: 600;
+                    text-align: center;
+                    margin-top: 50px;
+                    margin-bottom: 20px;
+                }
+                .sifreAktiv__desc{
+                    color: $black;
+                }
+                .sifreAktiv__a{
+                    color: $yellow;
+                    font-weight: 600;
+                }
+            }
+        }
+    }   
+    // SIFRE AKTIV
 
 
 }
