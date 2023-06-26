@@ -1,0 +1,147 @@
+.elaqe {
+    margin: 90px 0;
+    display: flex;
+    align-items: center;
+    .elaqe__content {
+        height: 555px;
+        width: 500px;
+        background: $white;
+        box-shadow: 0 1px 7px rgba(206, 222, 250, 0.5);
+        border-radius: 10px;
+        padding: 80px 50px;
+        .elaqe__melumatlar {
+            margin-bottom: 30px;
+            .elaqe__melumatlar__title {
+                margin-bottom: 15px;
+                // font-size: 30px;
+            }
+            .elaqe__xerite {
+                color: $black;
+                font-size: 18px;
+                i {
+                    color: $yellow;
+                    font-size: 22px;
+                    margin-right: 15px;
+                }
+            }
+            .elaqe__telefon {
+                color: $black;
+                font-size: 18px;
+                i {
+                    color: $yellow;
+                    font-size: 22px;
+                    margin-right: 15px;
+                }
+                span {
+                    margin-left: 20px;
+                }
+            }
+            .elaqe__email {
+                color: $black;
+                font-size: 18px;
+                i {
+                    color: $yellow;
+                    font-size: 22px;
+                    margin-right: 15px;
+                }
+            }
+        }
+        .elaqe__qrafik {
+            margin-bottom: 30px;
+            .elaqe__qrafik__title {
+                margin-bottom: 15px;
+                // font-size: 30px;
+            }
+            .elaqe__saat {
+                font-size: 18px;
+            }
+        }
+        .elaqe__biziIzleyin {
+            margin-bottom: 30px;
+            .elaqe__biziIzleyin__title {
+                margin-bottom: 15px;
+                // font-size: 30px;
+            }
+            ul {
+                display: flex;
+                align-items: center;
+                // margin: 0;
+                padding: 0;
+                li {
+                    list-style: none;
+                    a {
+                        i {
+                            font-size: 24px;
+                            color: $yellow;
+                            margin-right: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .elaqe__form {
+        .elaqe__form__title {
+            font-size: 40px;
+            font-weight: 600;
+            color: $darkBlue;
+            margin-bottom: 35px;
+        }
+        form {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .second {
+                // width: 95% !important;
+                margin-left: 16px;
+            }
+            input {
+                margin-bottom: 20px;
+                border: 0.5px solid $inputBorder;
+                border-radius: 10px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                color: #404040;
+                padding: 10px 20px;
+                height: 40px;
+                width: 95%;
+                outline: none;
+                // margin-right: 20px;
+            }
+            .third {
+                width: 100%;
+            }
+            textarea {
+
+                border: 0.5px solid $inputBorder;
+                border-radius: 10px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                color: #404040;
+                padding: 10px 20px;
+                width: 100%;
+                height: 150px;
+                margin-bottom: 30px;
+                outline: none;
+            }
+            .form__button {
+                width: 100%;
+                background-color: $yellow;
+                color: $white;
+                outline: none;
+                border: 1px solid $yellow;
+                height: 44px;
+                border-radius: 10px;
+                font-weight: 600;
+                transition: 0.7s;
+                &:hover {
+                    background-color: #fff;
+                    color: $yellow;
+                }
+            }
+        }
+    }
+}

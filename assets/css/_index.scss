@@ -1,0 +1,278 @@
+.slider{
+    background-image: url('../img/home/background_slider.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+        // margin-top: 80px;
+            .slider__content{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .slider__text{
+                    h1{
+                        color: $white;
+                        font-size: 60px;
+                        width: 80%;
+                        margin-bottom: 30px;
+                    }
+                    .slider__p{
+                        font-size: 22px;
+                    }
+    
+                }
+                .slider__image{
+                    img{
+    
+                    }
+                }
+            }
+            .owl-dots{
+                display: flex;
+                gap: 5px;
+                .owl-dot{
+                    span{
+                        width: 8px;
+                        height: 8px;
+                        display: inline-block;
+                        background: $white;
+                        border-radius: 50%;
+                        transition: 0.5s all ease-in-out;
+                    }
+                }
+                .owl-dot.active{
+                    span{
+                        width: 15px;
+                        background: $yellow;
+                    }
+                }
+            }
+        }
+
+.dashinma{
+    margin: 50px 0;
+    display: flex;
+    .dashinma__image{
+        img{
+
+        }
+    }
+    .dashinma__content{
+        .dashinma__title{
+    color: #254083;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 12px;
+        }
+        .dashinma__desc{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 50px;
+            width: 75%;
+        }
+
+
+        .calculator{
+            display: flex;
+            flex-wrap: wrap;
+            .select{
+                    width: 95%;
+                    margin-bottom: 20px;
+                    padding-left: 10px;
+                    height: 45px;
+                outline: none;
+                border-radius: 12px;
+                    border: 1px solid $inputBorder;
+                }
+                input{
+                width: 95%;
+                margin-bottom: 20px;
+                padding-left: 10px;
+                height: 45px;
+                border-radius: 12px;
+                border: 1px solid $inputBorder;
+                outline: none;
+            }
+            .result{
+                background-color: $darkBlue;
+                box-shadow: 0px 2px 7px #BDC2FF;
+                border-radius: 10px;
+                max-width: 645px;
+                width: 98%;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+                margin-top: 10px;
+                h4{
+                    color: $white;
+                    margin: 0;padding: 0;
+                }
+            }
+        }
+    }
+}
+
+.tarifler{
+    margin: 40px 0;
+    .tarifler__top{
+        margin-bottom: 10px;
+        .tarifler__title__p{
+            text-align: center;
+            color: $darkBlue;
+            font-size: 44px;
+            font-weight: 600;
+        }
+    }
+    .table{
+        margin: 30px 0;
+        tbody{
+            th{
+                padding: 20px 0;
+            }
+            td{
+                padding: 20px 0;
+            }
+        }
+    }
+}
+
+.bizNeceIsleyirik{
+    margin: 80px 0;
+    .bizNeceIsleyirik__top{
+        .bizNeceIsleyirik__p{
+            font-size: 40px;
+            color: $darkBlue;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+    }
+
+    .bizNeceIsleyirik__all{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        .bizNeceIsleyirik__box{
+            display: flex;
+            align-items: center;
+            width: 95%;
+            background: $white;
+            box-shadow: 0px 1px 7px rgba(206, 222, 250, 0.5);
+            border-radius: 10px;
+            padding: 38px 34px 37px 28px;
+            cursor: pointer;
+            .bizNeceIsleyirik__image{
+                margin-right: 10px;
+                img{
+
+                }
+            }
+            .bizNeceIsleyirik__content{
+                .bizNeceIsleyirik__title{
+                    font-weight: 600;
+                    color: $darkBlue;
+                    font-size: 18px;
+                }
+                .bizNeceIsleyirik__desc{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+.yenilikler{
+    margin: 80px 0;
+    .yenilikler__top{
+        text-align: center;
+        .yenilikler__top__title{
+            font-size: 40px;
+            color: $darkBlue;
+        }
+    }
+
+    .yenilikler__all{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 30px 0;
+
+
+        .yenilikler__box{
+            // &:hover .yenilikler__date .yenilikler__right .yenilikler__link img{
+            //     padding-left: 30px;
+
+            // }
+            box-shadow: 0px 1px 7px rgba(206, 222, 250, 0.5);
+            border-radius: 10px;
+            width: 100%;
+            margin-bottom: 20px;
+            .yenilikler__image{
+                margin-bottom: 10px;
+                img{
+                    
+                }
+            }
+            .yenilikler__content{
+                  padding: 0 20px 30px 20px;
+                .yenilikler__title{
+
+                }
+                .yenilikler__desc{
+
+                }
+            }
+            .yenilikler__date{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 20px 30px 20px;
+
+                .yenilikler__left{
+                    .yenilikler__month{
+
+                    }
+                }
+                .yenilikler__right{
+                .yenilikler__link{
+                    img{
+                        
+                    }
+                }
+                }
+            }
+        }
+    }
+
+    .yenilikler__alink{
+        text-align: end;
+        margin: 10px 0;
+        .yenilikler__links{
+            color: $darkBlue ;
+            font-weight: 600;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+    }
+}
+
+.logos{
+        .owl-logos{
+            display: flex;
+            align-items: center;
+            .item{
+                display: flex;
+                justify-content: center;
+            img{
+                width: 100%;
+                height: 100%;
+                max-width: 160px;
+                max-height:160px ;
+            }
+        }
+    }
+    }
