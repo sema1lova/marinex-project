@@ -129,6 +129,11 @@
     .table{
         margin: 30px 0;
         tbody{
+            tr{
+                th{
+                    color:$darkBlue;
+                }
+            }
             th{
                 padding: 20px 0;
             }
@@ -205,8 +210,8 @@
         .yenilikler__box{
             // &:hover .yenilikler__date .yenilikler__right .yenilikler__link img{
             //     padding-left: 30px;
-
             // }
+            position: relative !important;
             box-shadow: 0px 1px 7px rgba(206, 222, 250, 0.5);
             border-radius: 10px;
             width: 100%;
@@ -214,7 +219,6 @@
             .yenilikler__image{
                 margin-bottom: 10px;
                 img{
-                    
                 }
             }
             .yenilikler__content{
@@ -275,4 +279,13 @@
             }
         }
     }
+    }
+
+    .aaa {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
     }

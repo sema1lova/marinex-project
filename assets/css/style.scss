@@ -328,7 +328,7 @@ a {
     .header {
         display: none;
     }
-    
+    // INDEX
     .slider{
         background-image: url('../img/home/background_slider.jpg');
         background-repeat: no-repeat;
@@ -406,7 +406,19 @@ a {
         }
     }
     
-    
+    .tarifler{
+        table{
+            width:1300px;
+        }
+        .tablee{
+                overflow-x: scroll; 
+                height: 220px;
+            }
+            .tablee::-webkit-scrollbar{
+                display: none;
+            }
+    }
+
     .bizNeceIsleyirik{
         margin: 20px 0;
         .bizNeceIsleyirik__top{
@@ -457,23 +469,26 @@ a {
             align-items: center;
             // justify-content: center;
             margin: 20px 0;
-            .yenilikler__box{
-                width: 100% !important;
-                // display: flex;
-                // justify-content: center;
-                .yenilikler__image{
-                    margin-bottom: 10px;
-                    img{
-                    width: 100%;
-
-                    }
-                }
-                .yenilikler__date{
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    // padding: 0 20px 30px 20px;
+            a{
+                .yenilikler__box{
+                    width: 100% !important;
+                    margin-bottom: 30px;
+                    // display: flex;
+                    // justify-content: center;
+                    .yenilikler__image{
+                        margin-bottom: 10px;
+                        img{
+                        width: 100%;
     
+                        }
+                    }
+                    .yenilikler__date{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        // padding: 0 20px 30px 20px;
+        
+                    }
                 }
             }
         }
@@ -509,11 +524,13 @@ a {
         }
     }
 
+// INDEX
 
 
 
+//TARIFLER
 
-
+//TARIFLER
 
 
 
@@ -711,6 +728,135 @@ a {
     }   
     // SIFRE AKTIV
 
+
+// SIFRE KOD
+.sifreKod{
+    margin: 40px 0;
+    .sifreKod__image{
+        img{
+            display: none;
+        }
+    }
+    .sifreKod__form{
+        position: relative;
+        .inputs{
+            display: flex;
+            justify-content: space-between;
+        }
+        img{
+          display: none;
+        }
+        height: auto;
+        width: auto;
+        .inputt{
+            width: 82%;
+        }
+    }
+}   
+//SIFRE KOD
+
+// SIFRE BERPASI
+.sifreBerpasi{
+    margin: 40px 0;
+    .sifreBerpasi__image{
+        img{
+           display: none;
+        }
+    }
+    .sifreBerpasi__title{
+        font-size: 35px;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .sifreBerpasi__form{
+        position: relative;
+        img{
+          display: none;
+        }
+        height: auto;
+        width: auto;
+    }
+}   
+// SIFRE BERPASI
+
+
+
+// MAGAZALAR
+.magazalar{
+    margin: 30px 0;
+    .magazalar__top{
+        .magazalar__top__title{
+            font-size: 35x;
+        }
+    }
+    .magazalar__all{
+        margin: 30px 0;
+        .magazalar__box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 350px;
+            margin: 10px auto;
+            width: 100%;
+            height: 160px;
+            margin-bottom: 20px;
+        }
+    }
+}
+// MAGAZALAR
+
+
+// MENTEQE TARIFLERI
+.menteqe{
+    margin: 40px 0;
+    .menteqe__top{
+        // margin-bottom: 30px;
+        .menteqe__top__title{
+            font-size: 35px;
+        }
+    }
+
+    .menqete__links{
+        margin: 30px 0; 
+        overflow-x: scroll; 
+        width:auto;
+        height: 50px;
+        ul{
+            li{
+                margin-right: 15px;
+            }
+        }
+    }
+    .menqete__links::-webkit-scrollbar{
+        display: none;
+    }
+
+    .table{
+        width:1300px;
+        margin: 30px 0;
+        tbody{
+            tr{
+                th{
+                    color:$darkBlue;
+                }
+            }
+            th{
+                padding: 20px 0;
+            }
+            td{
+                padding: 20px 0;
+            }
+        }
+    }
+    .tablee{
+            overflow-x: scroll; 
+            height: 220px;
+        }
+        .tablee::-webkit-scrollbar{
+            display: none;
+        }
+}
+// MENTEQE TARIFLERI
 
 }
 @media (min-width: 565px) and (max-width: 768px) {
