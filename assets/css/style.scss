@@ -15,6 +15,7 @@
 @import "./sifreBerpasi.scss";
 @import "./sifreKod.scss";
 @import "./smartCustoms.scss";
+@import "./isdifadeci.scss";
 
 * {
     margin: 0;
@@ -857,6 +858,84 @@ a {
         }
 }
 // MENTEQE TARIFLERI
+
+
+// QEYDIYYAT
+.qeydiyyat{
+    margin: 20px 0;
+    .qeydiyyat__top{
+        .qeydiyyat__top__title{
+            font-size: 35px;
+        }
+    }
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        input{
+            width: 100%;
+        }
+        .center{
+            input{
+                width: 100%;
+            }
+        }
+        .form__bottom{
+            margin: 25px 0;
+        }
+        .form__bottom2{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            .form__bottom2__title1{
+                display: flex;
+                align-items: center;
+            }
+            .form__bottom2__title2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .form__bottom2__center{
+                    font-size: 13px;
+                    margin-left: 35px;
+                }
+            }
+        }
+    }
+}
+// QEYDIYYAT
+
+// ISDIFADECI
+.isdifadeci {
+    margin: 20px 0;
+    .isdifadeci__top {
+        margin-bottom: 20px;
+        .isdifadeci__top__title {
+            font-size: 40px;
+            color: $darkBlue;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+    .isdifadeci__descs {
+        ol {
+            margin-left: 15px;
+            li {
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 20px;
+                width: 100%;
+                color: $black;
+                font-size: 15px;
+                line-height: 17px;
+                font-weight: 400;
+                text-align: justify;
+            }
+        }
+    }
+}
+// ISDIFADECI
 
 }
 @media (min-width: 565px) and (max-width: 768px) {
