@@ -399,6 +399,90 @@
   padding: 0;
 }
 
+.dashinma {
+  margin: 50px 0;
+}
+.dashinma .dashinma__top {
+  text-align: center;
+}
+.dashinma .dashinma__top .dashinma__top__title {
+  color: #254083;
+  font-size: 40px;
+  font-weight: 600;
+}
+.dashinma .conditions {
+  margin: 20px 0;
+}
+.dashinma .conditions ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashinma .conditions ul li {
+  list-style: none;
+  margin: 0 10px;
+  border: 1px solid #254083;
+  border-radius: 10px;
+  padding: 11px 15px;
+  transition: 0.5s;
+}
+.dashinma .conditions ul li a {
+  font-weight: 600;
+  color: #404040;
+}
+.dashinma .conditions ul li:hover {
+  background: #254083;
+  color: #ffffff;
+}
+.dashinma .conditions ul li:hover a {
+  color: #ffffff;
+}
+.dashinma .conditions ul li.active {
+  background: #254083;
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+}
+.dashinma .conditions ul li.active a {
+  color: #ffffff !important;
+}
+.dashinma .conRow {
+  max-width: 1037px;
+  margin: 0 auto;
+}
+.dashinma .conRow .conditions__descs {
+  display: flex;
+  justify-content: center;
+}
+.dashinma .conRow .conditions__descs ul {
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+.dashinma .conRow .conditions__descs ul li {
+  color: #404040;
+  margin-bottom: 15px;
+}
+.dashinma .conRow .conditions__descs .umumi__sertler {
+  margin: 20px auto;
+}
+.dashinma .conRow .conditions__descs .umumi__sertler .main__p {
+  margin: 0 auto;
+}
+.dashinma .conRow .conditions__descs .umumi__sertler .first__h3 {
+  margin: 10px auto;
+}
+.dashinma .conRow .conditions__descs .umumi__sertler .second__h3 {
+  margin: 20px auto;
+}
+.dashinma .conRow .conditions__descs .umumi__sertler ul li {
+  list-style: none;
+  margin: 8px auto;
+}
+.dashinma .conRow .conditions__descs .questions .question__box .question__top p i {
+  color: #FFAB21;
+  margin-left: 100px;
+}
 .elaqe {
   margin: 90px 0;
   display: flex;
@@ -651,6 +735,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  max-width: 880px;
+  margin: 0 auto;
 }
 .qeydiyyat form input {
   padding-left: 5px;
@@ -736,8 +822,26 @@
   border: none;
   color: #69768B;
 }
+.qeydiyyat form .left .inpttDiv {
+  position: relative;
+}
+.qeydiyyat form .left .inpttDiv i {
+  position: absolute;
+  right: 15px;
+  top: 45px;
+  color: #254083;
+}
 .qeydiyyat form .right {
   display: flex-end;
+}
+.qeydiyyat form .right .inpttDiv {
+  position: relative;
+}
+.qeydiyyat form .right .inpttDiv i {
+  position: absolute;
+  right: 15px;
+  top: 45px;
+  color: #254083;
 }
 .qeydiyyat form .center input {
   width: 99.5%;
@@ -1230,6 +1334,10 @@ a {
   font-size: 17px;
   color: #404040;
   margin: 0 13px;
+}
+.header .header__nav ul li .headActive {
+  color: #FFAB21 !important;
+  text-decoration: underline !important;
 }
 .header .header__button {
   display: flex;
@@ -1870,5 +1978,74 @@ a {
     line-height: 17px;
     font-weight: 400;
     text-align: justify;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .top__header__mobile {
+    display: flex;
+    padding: 10px 0;
+    background-color: #254083;
+  }
+  .top__header__mobile .top__header__mobile__icons ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .top__header__mobile .top__header__mobile__icons ul li {
+    list-style: none;
+  }
+  .top__header__mobile .top__header__mobile__icons ul li a i {
+    color: #ffffff;
+    margin-right: 18px;
+    font-size: 19px;
+  }
+  .top__header__mobile .top__header__mobile__links ul {
+    display: flex;
+    justify-content: end;
+    padding: 0;
+    margin: 0;
+  }
+  .top__header__mobile .top__header__mobile__links ul li {
+    list-style: none;
+  }
+  .top__header__mobile .top__header__mobile__links ul li a {
+    color: #ffffff;
+  }
+  .top__header__mobile .top__header__mobile__links ul li a:last-child {
+    margin-left: 4px;
+  }
+  .header__mobile {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+  }
+  .header__mobile .header__mobile__menu a i {
+    font-size: 25px;
+    color: #254083;
+  }
+  .header__mobile .header__mobile__logo {
+    display: flex;
+    justify-content: center;
+  }
+  .header__mobile .header__mobile__logo img {
+    width: 100%;
+    max-width: 70px;
+  }
+  .header__mobile .header__mobile__daxilOl a {
+    display: flex;
+    justify-content: end;
+  }
+  .header__mobile .header__mobile__daxilOl a i {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 100%;
+    background-color: #254083;
+  }
+  .top__header {
+    display: none;
+  }
+  .header {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
